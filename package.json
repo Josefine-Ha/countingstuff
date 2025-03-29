@@ -23,5 +23,8 @@
     "eslint-config-universe": "^14.0.0",
     "prettier": "^3.5.3"
   },
-  "private": true
+  "private": true,
+  "description": "CountingStuff app for the Cross-Platform course.",
+  "author": "",
+  "license": "ISC"
 }
