@@ -19,7 +19,9 @@ export const CountableRow = ({ countable, changeCount, index }) => (
       <CountableButton
         label="-"
         submit={() => {
-          changeCount(-1, index);
+          if (countable.count > 0) {
+            changeCount(-1, index);
+          }
         }}
       />
     </View>
